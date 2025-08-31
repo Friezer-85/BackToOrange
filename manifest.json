@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "BackToOrange",
+  "version": "1.0",
+  "description": "Simple Firefox extension who backs Orange branding on Sosh website",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.sosh.fr/*",
+    "*://*.orange.fr/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
